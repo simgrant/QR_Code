@@ -1,0 +1,102 @@
+@import url('https://fonts.google.com/specimen/Outfit');
+
+
+/* Colors */
+
+:root {
+	--primary-white: hsl(0, 0%, 100%);
+	--primary-slate: hsl(212, 45%, 89%);
+	--secondary-slate: hsl(216, 15%, 48%);
+	--tertiary-slate: hsl(218, 44%, 22%);
+}
+
+
+* {	
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	font-family: 'Outfit', sans-serif;
+	background-color: var(--primary-slate);
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+
+.content {
+	display: flex;
+	justify-content: center; /* center horizontally */
+	align-items: center; /* center vertically */
+	height: 100%;
+	
+}
+
+.main-view {
+	width: 270px;
+	height: 400px;
+	background-color: var(--primary-white);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.image-container {
+	width: 100%;
+	height: 60%;
+	margin: 20px 0;
+	padding: 0 10px;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: scale-down;
+}
+
+.text {
+	width: 100%;
+	padding: 0 20px;
+	color: var(--secondary-slate);
+/*	margin: 0 20px;*/
+}
+
+
+.text h1 {
+	font-weight: 700;
+	font-size: 15px;
+	text-align: center;
+	color: var(--tertiary-slate);
+	margin: 0 10px;
+}
+
+.text p {
+	font-weight: 400;
+	font-size: 15px;
+	text-align: center;
+	margin: 10px 10px;
+}
+
+
+.attribution { 
+	display: flex;
+	align-items: flex-end;
+	font-size: 11px; 
+	text-align: center; 
+}
+
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
+
+/* Media Queries */
+
+@media (min-width: 375px) and (max-width: 1440px) {
+/* Rules go here */
+}
+
