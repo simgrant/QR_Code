@@ -85,7 +85,6 @@ img {
 	display: flex;
 	align-items: flex-end;
 	font-size: 11px; 
-	text-align: center; 
 	margin: 0 20px;
 }
 
@@ -94,15 +93,26 @@ img {
 }
 
 
-@media (min-width: 375px) and (max-width: 1440px) {
+@media (min-width: 375px) {
 	body {
 		font-size: 15px;
+	}
+
+	.attribution {
+		display: flex;
+		justify-content: center;
+		padding-top: 40px;
 	}
 
 }
 
 
-
+@media (max-width: 1440px) {
+	.attribution {
+		display: flex;
+		justify-content: flex-start;
+	}
+}
 
 
 
