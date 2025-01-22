@@ -37,13 +37,13 @@ html, body {
 }
 
 .main-view {
-	width: 260px;
-	height: 400px;
+	width: 300px;
 	background-color: var(--primary-white);
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	border-radius: 20px;
+	padding: 15px 0;
 }
 
 .image-container {
@@ -67,7 +67,7 @@ img {
 }
 
 .text h1 {
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: 700;
 	text-align: center;
 	color: var(--tertiary-slate);
@@ -75,7 +75,7 @@ img {
 }
 
 .text p {
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 400;
 	text-align: center;
 	margin: 15px 15px;
